@@ -11,7 +11,7 @@ const BASE_API_URL = "http://localhost:5000";
 
 class AprèsSkiMeApi {
 
-  /** */
+  /** Formats an API request. Returns data or throws an error message*/
   static async request(endpoint, data = {}, method = "get") {
     console.debug("API Call:", endpoint, data, method);
 

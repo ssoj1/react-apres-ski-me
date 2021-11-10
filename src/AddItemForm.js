@@ -18,7 +18,7 @@ const defaultInitialFormData = {
  * snacks or drinks array, depending on type
  * 
  * State: 
- * - none
+ * - formData
  * 
  * Routes -> AddItemForm
  */

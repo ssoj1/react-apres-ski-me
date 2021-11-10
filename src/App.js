@@ -29,18 +29,15 @@ function App() {
 
   // Loads snacks and drinks from the API. Run on initial load.
   useEffect(function getMenuItems() {
-    async function getSnacks() {
+    async function getAllItems() {
       let snacks = await AprèsSkiMeApi.getSnacks();
-      setSnacks(snacks);
-      setIsLoading(false);
-    }
-    async function getDrinks() {
       let drinks = await AprèsSkiMeApi.getDrinks();
+  
+      setSnacks(snacks);
       setDrinks(drinks);
       setIsLoading(false);
     }
-    getSnacks();
-    getDrinks();
+    getAllItems();
   }, []);
 
   /** Receives form submission as an object like: 

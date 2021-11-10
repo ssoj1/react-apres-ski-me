@@ -25,45 +25,44 @@ import AddItemForm from "./AddItemForm";
  */
 
 function Routes({ snacks, drinks, addItem }) {
-    console.debug("* Routes", { snacks, drinks, addItem });
+  console.debug("* Routes", { snacks, drinks, addItem });
 
-    return (
-        <div className="App">
-            <main>
-                <Switch>
-                    <Route exact path="/">
-                        <Home snacks={snacks} drinks={drinks} />
-                    </Route>
+  return (
+    <div className="App">
+      <main>
+        <Switch>
+          <Route exact path="/">
+            <Home snacks={snacks} drinks={drinks} />
+              </Route>
 
-                    <Route exact path="/snacks">
-                        <Menu items={snacks} type="Snacks" />
-                    </Route>
+              <Route exact path="/snacks">
+                <Menu items={snacks} type="Snacks" />
+              </Route>
 
-                    <Route exact path="/snacks/:id">
-                        <ItemDetailCard items={snacks} cantFind="/snacks" />
-                    </Route>
+              <Route exact path="/snacks/:id">
+                <ItemDetailCard items={snacks} cantFind="/snacks" />
+              </Route>
 
-                    <Route exact path="/drinks">
-                        <Menu items={drinks} type="Drinks" />
-                    </Route>
+              <Route exact path="/drinks">
+                <Menu items={drinks} type="Drinks" />
+              </Route>
 
-                    <Route exact path="/drinks/:id">
-                        <ItemDetailCard items={drinks} cantFind="/drinks" />
-                    </Route>
+              <Route exact path="/drinks/:id">
+                <ItemDetailCard items={drinks} cantFind="/drinks" />
+              </Route>
 
-                    <Route exact path="/additem">
-                        <AddItemForm addItem={addItem} />
-                    </Route>
+              <Route exact path="/additem">
+                <AddItemForm addItem={addItem} />
+              </Route>
 
-                    <Route>
-                        <p>
-                            Hmmm.I can't seem to find that page.
-                        </p>
-                    </Route>
-                    <Redirect to="/" />
-                </Switch>
-            </main>
-        </div>
+              <Route>
+                <p>
+                Hmmm.I can't seem to find that page.
+                </p>
+              </Route>
+        </Switch>
+      </main>
+    </div>
     );
 }
 
