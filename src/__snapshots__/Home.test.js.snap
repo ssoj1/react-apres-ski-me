@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="col-md-8"
+  >
+    <div
+      class="card"
+    >
+      <div
+        class="text-center card-body"
+      >
+        <div
+          class="card-title"
+        >
+          <h3
+            class="font-weight-bold"
+          >
+            Welcome to Tahoe's premier dive cafe!
+          </h3>
+          <p>
+            We have 1 snacks and 1 drinks to choose from.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

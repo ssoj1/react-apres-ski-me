@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot with with snacks 1`] = `
+<DocumentFragment>
+  <section
+    class="col-md-4"
+  >
+    <div
+      class="card"
+    >
+      <div
+        class="card-body"
+      >
+        <div
+          class="font-weight-bold text-center card-title"
+        >
+          Snacks Menu
+        </div>
+        <p
+          class="card-text"
+        >
+          We offer a selection of snacks, made with either love or lack of care, depending on our mood.
+        </p>
+        <ul
+          class="list-group"
+        >
+          <a
+            href="/snacks/test-snack"
+          >
+            <li
+              class="list-group-item"
+            >
+              Test Snack
+            </li>
+          </a>
+        </ul>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

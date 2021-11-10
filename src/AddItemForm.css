@@ -1,0 +1,26 @@
+.card {
+    background-color: #101010d1;
+    color: #f0f2f5;
+    border: 20px solid rgba(16, 16, 16, 0.63);
+    box-shadow: inset 0 0 0 2px #ffffff;
+    box-sizing: border-box;
+}
+
+
+.NewAddItemForm {
+    padding: 3vw;
+}
+
+legend {
+    font-size: medium;
+}
+
+label {
+    font-size: medium;
+}
+
+.NewAddItemForm-addBtn {
+    margin-top: 2vw;
+    color: black;
+    background-color: white;
+}
