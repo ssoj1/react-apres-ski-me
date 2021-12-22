@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_API_URL = "http://localhost:5000";
+const BASE_API_URL = "https://apres-ski-me-backend.herokuapp.com/";
 
 /** API Class.
  *
