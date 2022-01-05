@@ -24,7 +24,7 @@ function Home({ snacks, drinks }) {
         <CardBody className="text-center">
           <CardTitle>
             <h3 className="font-weight-bold">
-              Welcome to Tahoe's premier dive cafe!
+              Welcome to Tahoe's loudest warming hut!
             </h3>
             <p>We have {snacks.length} snacks
               and {drinks.length} drinks to choose from.
